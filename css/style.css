@@ -1,0 +1,68 @@
+:root {
+  --header-color: #e4d8cc;
+  --white-color: #fff;
+  --bcr-color1: #7837f3;
+  --bcr-color2: rgba(228, 216, 204, 0.5);
+}
+.container {
+  width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+body {
+  font-family: "Inter",sans-serif
+}
+.contact-list {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+.hero {
+  background-color: rgb(117, 117, 117);
+  padding-top: 364px;
+  padding-bottom: 116px;
+}
+.hero-list {
+  display: flex;
+  gap: 16px;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 1.06;
+  color: var(--header-color);
+  margin-bottom: 14px;
+}
+.hero-text {
+  color: var(--header-color);
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 42px;
+}
+.hero-btn {
+  color: var(--white-color);
+  background-color: var(--bcr-color2);
+  padding: 14px 34px;
+  border-color: transparent;
+  border-radius: 100px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+}
+.purple {
+  background-color: var(--bcr-color1);
+}
